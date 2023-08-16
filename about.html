@@ -44,7 +44,7 @@ img {
 
 
 header {
-    background-image: url('home.png');
+    background-image: url('image/home.png');
   	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
  	height: 120px;
   	transition: all 0.3s ease-in-out;
@@ -132,7 +132,7 @@ nav {
 /* Hero section styles */
 
 .hero {
-    background-image: url("home.png");
+    background-image: url("image/home.png");
     padding: 50px;
     display: flex;
     width: 100%;
@@ -309,7 +309,7 @@ font-size: 0.9rem;
     <header>
 
         <a href="home.html">
-			<img src="logo.png" class="webgate">
+			<img src="image/logo.png" class="webgate">
 		</a>
 
 		<div class="logo">
@@ -351,7 +351,7 @@ font-size: 0.9rem;
                     space.</p>
             </div>
 
-            <img src="Details.png" alt="about-details">
+            <img src="image/Details.png" alt="about-details">
                 <img class="contact-image" src="Contact.png" alt="">
 
 
@@ -381,10 +381,13 @@ font-size: 0.9rem;
             </div>
             <div class="contact-us">
                 <h3>Contact Us</h3>
-                <p>123 Main St.</p>
-                <p>Anytown, USA 12345</p>
-                <p>Email: info@webscience.com</p>
-                <p>Phone: 555-555-5555</p>
+                <p>Sekondi, Lands Commission Area</p>
+                <p>Sekondi-Takoradi, Ghana</p>
+                <p><a href="mailto:dennispolley996@gmail.com">
+					Dennispolley996@gmail.com</a></p>
+                <p><a href="tel:0542367766">0542367766</a></p>
+                <p><a href="tel:0542367766">0573479169</a></p>
+                <p><a href="tel:0542367766">0205179906</a></p>
             </div>
             <div class="social-media">
                 <h3>Connect with Us</h3>
@@ -419,7 +422,7 @@ font-size: 0.9rem;
             logo.style.color = '#ffffff'; // Set logo text color to white when the header is fixed
           } else {
             header.classList.remove('fixed');
-            header.style.backgroundImage = "url('home.png')"; // Set the background image path when scrollTop is 0
+            header.style.backgroundImage = "url('image/home.png')"; // Set the background image path when scrollTop is 0
             header.style.backgroundColor = 'hwb(0 100% 0%)'; // Set the background color to the original color when scrollTop is 0
             ulElements.forEach(function(element) {
               element.style.color = 'white'; // Set text color to the original color when the header is not fixed

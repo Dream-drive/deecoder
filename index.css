@@ -141,6 +141,10 @@ nav {
 	position: absolute;
 	right: 44%;
 }
+.hero-button:hover{
+	background-color: white;
+	color: black;
+}
 
 a{
 	text-decoration: none;
