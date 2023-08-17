@@ -16,7 +16,7 @@ body {
 
 /*Header Section*/
 header {
-	background-image: url('image/one.jpg');
+	background-image: url('image/on.jpg');
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 	height: 120px;
 	transition: all 0.3s ease-in-out;
@@ -88,7 +88,7 @@ nav {
 
 /*Hero Section */
 .hero {
-	background-image: url("image/one.png");
+	background-image: url("image/on.png");
 	padding: 50px;
 	display: flex;
 	width: 100%;
