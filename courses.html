@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WEBGENIE - Web Development Courses</title>
+	<title>WEBGATE - Web Development Courses</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
@@ -24,8 +24,6 @@ body {
 	line-height: 1.5;
 	color: #242222;   
 }
-
-
 
 a {
 	color: #ffffff;
@@ -317,14 +315,12 @@ margin-top: 50px;
 
 
 
-
-
     </style>
 
 </head>
 <body>
 	<header>
-		<a href="home.html">
+		<a href="index.html">
 			<img src="image/logo.png" class="webgate">
 		</a>
        
@@ -478,7 +474,6 @@ margin-top: 50px;
     </footer>
 
 	<script>
-		
 
         window.addEventListener('scroll', function() {
           var header = document.querySelector('header');
@@ -511,21 +506,6 @@ margin-top: 50px;
       
 	
 	
-	
-		  var container = document.getElementById("container");
-		  var images = document.getElementById("images");
-		  var imgWidth = images.offsetWidth / 4;
-		  var currentImage = 0;
-		  function start() {
-			setInterval(function() {
-			  currentImage++;
-			  if (currentImage > 3) {
-				currentImage = 0;
-			  }
-			  images.style.left = -currentImage * imgWidth + "px";
-			}, 3000);
-		  }
-		  start();
 	
 	</script>
 
